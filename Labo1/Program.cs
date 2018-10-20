@@ -7,7 +7,7 @@ namespace Labo1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            int x = Console.Read();
+            string input = Console.ReadLine();
             int a = 0;
             int b = 1;
             int [] c = new int [5];
@@ -22,8 +22,8 @@ namespace Labo1
             {
                 Console.WriteLine("c[{0}]={1}", i, c[i]);
             }
-            char ch = Convert.ToChar(x);
-            Console.WriteLine("x={0}",ch);
+            
+            Console.WriteLine("input={0}",input);
             Console.Read();
         }
     }
